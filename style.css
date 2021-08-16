@@ -1,0 +1,113 @@
+body {
+    
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9XT8WTe1E4qjl4euV3vR6PzPvlgAdCeRXQ&usqp=CAU);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    border: double;
+}
+#media {
+    background-color: #333;
+    color: #fff;
+}
+
+#media ul{
+    padding: 0;
+    list-style: none;
+}
+#media li{
+    display: inline;
+}
+#media a{
+    color: #fff;
+    text-decoration: italic;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcase {
+    background-image: url(https://image.shutterstock.com/image-photo/sisters-broken-top-mountains-near-260nw-787456213.jpg);
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: double;
+}
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;        
+}
+#showcase h2{
+    color: #fff;
+    font-style: italic;
+    float: right;
+}
+#showcase h3{
+    color: #fff;
+    font-style: italic;
+    font-size: smaller;
+    float: right;
+}
+@media screen and (min-width:480px){
+    .container-1{
+        width: fit-content;
+    }    
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+    
+.container-1 div{
+    border: 5px#ccc solid;
+    padding: 2px;      
+}
+.box-1:hover{
+    color: limegreen;
+}
+.box-2:hover{
+    color: mediumblue;
+}
+.box-3:hover{
+    color: orange;
+}
+.box-4:hover{
+    color: brown;   
+}
+.box-5:hover{
+    color: coral;
+}
+.box-6:hover{
+    color: black;
+}
+    
+.bio {
+    background: lightsteelblue;
+    color:black;
+    text-align: center;
+    border: double;   
+}
+.footer {
+    color: lightslategrey;
+    font-style: italic;
+    font-size: smaller;
+}
